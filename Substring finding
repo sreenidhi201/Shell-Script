@@ -1,0 +1,3 @@
+str="colors of life"
+y="${str:5:8}"
+echo "$y"
