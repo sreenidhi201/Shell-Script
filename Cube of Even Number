@@ -1,0 +1,10 @@
+echo "enter the limit"
+read n
+for ((i=1; i<=n ; i++))
+do
+   if [[ i%2 -eq 0 ]]
+   then
+     s=$((i*i*i))
+   echo " $s "  
+   fi
+done
